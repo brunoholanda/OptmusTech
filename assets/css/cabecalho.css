@@ -1,0 +1,236 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: var(--main-color);
+    color: #FFF;
+  }
+  
+  /* Cabeçalho - Primeira seção */
+  
+  .about-us {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+    os filhos de uma div com display flex*/
+  }
+  
+  .about-us span {
+    color: var(--main-color);
+  }
+  
+  .about-us h1 {
+    font-size: 2rem;
+  }
+  
+  .about-us p {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  .skils {
+    display: flex;
+
+  }
+
+  .skil {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .destaque {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-color);
+  }
+
+  .titulo {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .descricao {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .vaga {
+    text-align: center;
+  }
+  .vaga__abertas {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    border-radius: 30%;
+    padding: 1rem;
+  }
+
+  .vaga__procurando {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1rem;
+  }
+
+  .vaga__equipe {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding-bottom: 2.5rem;
+  }
+
+  .vagas {
+    
+  }
+
+  .vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 0 19rem;
+  }
+
+  .vagas__card {
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 20rem;
+    border-color: #EAECF0;
+    border-style: solid;
+  }
+
+  .vagas__card-titulo {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .vagas__card-regime {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    
+   
+  }
+
+  .regime {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+
+  .vagas__card-salario {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-right: 20rem;
+   
+  }
+
+  .comentarios {
+    text-align: center;
+    background-color: rgba(196, 25, 25, 0.03);
+    margin: 4rem;
+  }
+
+  .comentarios__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 1.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .comentarios__principal {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  .comentarios__nome {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+
+  .comentarios__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding-bottom: 2.5rem;
+}
+
+.oportunidades {
+    text-align: center;
+    background-color:  #F9FAFB;
+}
+
+.oportunidades__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+.oportunidades__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+   
+}
+
+.oportunidades__email {
+    border-radius: 5px;
+    margin-right: 1.5rem;
+    width: 360px;
+    height: 48px;
+    margin-bottom: 1rem;
+}
+
+.oportunidades__direito {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    color: var(--text-color);
+}
